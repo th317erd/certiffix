@@ -1,0 +1,36 @@
+{
+  "name": "certiffix",
+  "version": "1.0.0",
+  "description": "Generate self-signed CA certificates, and certificates signed by your own CA",
+  "main": "index.js",
+  "bin": {
+    "certiffix": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Certificate",
+    "CA",
+    "Certificate",
+    "Authority",
+    "SSL",
+    "TLS",
+    "Certs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th317erd/certiffix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/th317erd/certiffix/issues"
+  },
+  "homepage": "https://github.com/th317erd/certiffix#readme",
+  "author": "Wyatt Greenway",
+  "license": "ISC",
+  "dependencies": {
+    "janap": "^1.0.8",
+    "kleur": "^4.1.4",
+    "prompts": "^2.4.2"
+  }
+}

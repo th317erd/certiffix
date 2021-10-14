@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 
+/*
+  Special thank you to Patrick Kalkman for his articles
+  and resources that contributed to this effort!
+*/
+
 const Path        = require('path');
 const FileSystem  = require('fs');
 const Janap       = require('janap');
